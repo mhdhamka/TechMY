@@ -1,0 +1,41 @@
+{
+  "name": "TechMY",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.18.3",
+  "type": "module",
+  "description": "Comprehensive, open-source tech curriculum and career resource for software engineering, AI, DevOps, data, and cybersecurity in Malaysia, built with VitePress.",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "check:links": "vitepress build docs --mpa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdhamka/TechMY.git"
+  },
+  "keywords": [
+    "malaysia",
+    "tech-community",
+    "software-engineering",
+    "devops",
+    "ai",
+    "cybersecurity",
+    "vitepress",
+    "curriculum"
+  ],
+  "author": "mhdhamka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhdhamka/TechMY/issues"
+  },
+  "homepage": "https://TechMY.my",
+  "pnpm": {
+    "overrides": {
+      "esbuild": "^0.25.0"
+    }
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
