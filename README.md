@@ -14,13 +14,13 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 **TechMY** is a community-driven, open-source tech curriculum and career resource tailored specifically for the Malaysian tech landscape. Born from curating a personal tech book collection and deeply inspired by structural philosophies like *The Odin Project*, TechMY bridges the gap between global technical standards and regional industry requirements—taking learners from absolute beginners to production-ready developers.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Curated Learning Paths:** Structured tracks covering Software Engineering, Data Engineering, DevOps & Infrastructure, Cybersecurity, and AI/ML.
 * **🇲🇾 Malaysian Tech Ecosystem:** Localized guides on regional hubs, active tech communities, meetups, local hiring markets, and PDPA compliance.
