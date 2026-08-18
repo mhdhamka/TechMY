@@ -19,7 +19,7 @@ export default defineConfig({
     ["meta", { name: "twitter:description", content: "The go-to resource to learn Software Engineering, AI, DevOps, Data, and Cybersecurity in Malaysia." }],
     ["meta", { name: "twitter:image", content: "https://techmy.dev/favicon.svg" }],
   ],
-  base: "/",
+  base: "/TechMY/", // <-- FIXED: Added subpath for GitHub Pages repository
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
@@ -121,7 +121,7 @@ export default defineConfig({
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/mhdhamka/TechMY" }],
     editLink: {
-      pattern: "https://github.com/mhdhamka/techmy/edit/main/docs/:path",
+      pattern: "https://github.com/mhdhamka/TechMY/edit/main/docs/:path", // <-- FIXED: Matched repository casing TechMY
       text: "Suggest an edit on GitHub",
     },
     footer: {
