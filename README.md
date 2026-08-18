@@ -4,7 +4,7 @@
 
 **Malaysian-first open resource site for software engineering, AI, DevOps, data, and cybersecurity, built with VitePress.**
 
-[Live Demo](https://TechMY.my) · [Report Bug](https://github.com/mhdhamka/TechMY/issues) · [Request Feature](https://github.com/mhdhamka/TechMY/issues)
+[Live Demo]([https://TechMY.my](https://mhdhamka.github.io/TechMY/)) · [Report Bug](https://github.com/mhdhamka/TechMY/issues) · [Request Feature](https://github.com/mhdhamka/TechMY/issues)
 
 ![License](https://img.shields.io/badge/license-ISC-blue.svg)
 ![VitePress](https://img.shields.io/badge/VitePress-1.6.4-52b0ff?logo=vitepress)
