@@ -12,16 +12,16 @@ export default defineConfig({
     ["meta", { property: "og:site_name", content: "TechMY" }],
     ["meta", { property: "og:title", content: "TechMY" }],
     ["meta", { property: "og:description", content: "The go-to resource to learn Software Engineering, AI, DevOps, Data, and Cybersecurity in Malaysia." }],
-    ["meta", { property: "og:url", content: "https://mhdhamka.github.io/techmy/" }],
-    ["meta", { property: "og:image", content: "https://mhdhamka.github.io/techmy/code.svg" }],
+    ["meta", { property: "og:url", content: "https://mhdhamka.github.io/TechMY/" }],
+    ["meta", { property: "og:image", content: "https://mhdhamka.github.io/TechMY/code.svg" }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:title", content: "TechMY" }],
     ["meta", { name: "twitter:description", content: "The go-to resource to learn Software Engineering, AI, DevOps, Data, and Cybersecurity in Malaysia." }],
-    ["meta", { name: "twitter:image", content: "https://mhdhamka.github.io/techmy/code.svg" }],
+    ["meta", { name: "twitter:image", content: "https://mhdhamka.github.io/TechMY/code.svg" }],
   ],
-  // Dynamically set base path for GitHub Pages sub-directory hosting vs local testing
-  base: process.env.NODE_ENV === "production" ? "/techmy/" : "/",
-  outDir: "../dist",
+  // Corrected base path with exact repository casing for GitHub Pages
+  base: process.env.NODE_ENV === "production" ? "/TechMY/" : "/",
+  outDir: "dist", // Corrected so workflow artifact path matches cleanly
   cleanUrls: true,
   lastUpdated: true,
   vite: {
@@ -139,6 +139,6 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://mhdhamka.github.io/techmy/",
+    hostname: "https://mhdhamka.github.io/TechMY/",
   },
 });
