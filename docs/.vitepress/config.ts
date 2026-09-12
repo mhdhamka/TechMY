@@ -12,14 +12,15 @@ export default defineConfig({
     ["meta", { property: "og:site_name", content: "TechMY" }],
     ["meta", { property: "og:title", content: "TechMY" }],
     ["meta", { property: "og:description", content: "The go-to resource to learn Software Engineering, AI, DevOps, Data, and Cybersecurity in Malaysia." }],
-    ["meta", { property: "og:url", content: "https://techmy.dev" }],
-    ["meta", { property: "og:image", content: "https://techmy.dev/favicon.svg" }],
-    ["meta", { name: "twitter:card", content: "summary" }],
+    ["meta", { property: "og:url", content: "https://mhdhamka.github.io/techmy/" }],
+    ["meta", { property: "og:image", content: "https://mhdhamka.github.io/techmy/code.svg" }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:title", content: "TechMY" }],
     ["meta", { name: "twitter:description", content: "The go-to resource to learn Software Engineering, AI, DevOps, Data, and Cybersecurity in Malaysia." }],
-    ["meta", { name: "twitter:image", content: "https://techmy.dev/favicon.svg" }],
+    ["meta", { name: "twitter:image", content: "https://mhdhamka.github.io/techmy/code.svg" }],
   ],
-  base: "/",
+  // Dynamically set base path for GitHub Pages sub-directory hosting vs local testing
+  base: process.env.NODE_ENV === "production" ? "/techmy/" : "/",
   outDir: "../dist",
   cleanUrls: true,
   lastUpdated: true,
@@ -129,7 +130,7 @@ export default defineConfig({
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/mhdhamka/TechMY" }],
     editLink: {
-      pattern: "https://github.com/mhdhamka/techmy/edit/main/docs/:path",
+      pattern: "https://github.com/mhdhamka/TechMY/edit/main/docs/:path",
       text: "Suggest an edit on GitHub",
     },
     footer: {
@@ -138,6 +139,6 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://techmy.dev",
+    hostname: "https://mhdhamka.github.io/techmy/",
   },
 });
