@@ -20,7 +20,6 @@ export default defineConfig({
     ["meta", { name: "twitter:image", content: "https://techmy.dev/favicon.svg" }],
   ],
   base: "/",
-<<<<<<< HEAD
   outDir: "../dist",
   cleanUrls: true,
   lastUpdated: true,
@@ -30,10 +29,6 @@ export default defineConfig({
       port: 3000,
     },
   },
-=======
-  cleanUrls: true,
-  lastUpdated: true,
->>>>>>> 430d80b6ef0e58e2f5882701f27b6b6ccf9cb009
   themeConfig: {
     logo: "/code.svg",
     siteTitle: "TechMY",
@@ -42,29 +37,19 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-<<<<<<< HEAD
       { text: "Roadmap 🇲🇾", link: "/roadmap" },
-=======
->>>>>>> 430d80b6ef0e58e2f5882701f27b6b6ccf9cb009
       { text: "Software", link: "/software-engineering/" },
-      { text: "System Design", link: "/system-design/" },
       { text: "Data", link: "/data-engineering/" },
-      { text: "AI & ML", link: "/ai-ml/" },
-      { text: "DevOps", link: "/devops-infrastructure/" },
       { text: "Security", link: "/cybersecurity/" },
       { text: "Local Hub", link: "/local-resources/" }
     ],
     sidebar: [
       {
         text: "Getting Started",
-<<<<<<< HEAD
         items: [
           { text: "Welcome & Overview", link: "/" },
           { text: "Interactive Roadmap 🇲🇾", link: "/roadmap" }
         ]
-=======
-        items: [{ text: "Welcome & Roadmap", link: "/" }]
->>>>>>> 430d80b6ef0e58e2f5882701f27b6b6ccf9cb009
       },
       {
         text: "Software Engineering",

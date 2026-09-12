@@ -8,12 +8,9 @@ hero:
   tagline: "Community-driven curricula taking you from absolute beginner to production-ready developer in tech."
   actions:
     - theme: brand
-<<<<<<< HEAD
       text: Interactive Roadmap 🇲🇾
       link: /roadmap
     - theme: alt
-=======
->>>>>>> 430d80b6ef0e58e2f5882701f27b6b6ccf9cb009
       text: View the Curricula
       link: /software-engineering/
     - theme: alt
@@ -21,13 +18,9 @@ hero:
       link: /local-resources/
 ---
 
-<<<<<<< HEAD
 <RoadmapVisualization />
 
 ## Curricula Tracks & Pillars
-=======
-## Your Learning Paths
->>>>>>> 430d80b6ef0e58e2f5882701f27b6b6ccf9cb009
 
 Designed like an open curriculum, structured to take you from core fundamentals to production-ready mastery tailored specifically for the Malaysian tech landscape.
 
