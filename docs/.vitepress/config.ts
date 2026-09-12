@@ -39,10 +39,7 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Roadmap 🇲🇾", link: "/roadmap" },
       { text: "Software", link: "/software-engineering/" },
-      { text: "System Design", link: "/system-design/" },
       { text: "Data", link: "/data-engineering/" },
-      { text: "AI & ML", link: "/ai-ml/" },
-      { text: "DevOps", link: "/devops-infrastructure/" },
       { text: "Security", link: "/cybersecurity/" },
       { text: "Local Hub", link: "/local-resources/" }
     ],

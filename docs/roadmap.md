@@ -1,6 +1,6 @@
 ---
 title: Malaysian Tech Career & Learning Roadmaps
-description: Interactive role roadmaps for Software Engineering, AI & Machine Learning, and Cybersecurity tailored specifically to the Malaysian technology landscape.
+description: "Interactive role roadmaps for Software Engineering, AI & Machine Learning, and Cybersecurity tailored specifically to the Malaysian technology landscape."
 ---
 
 # Malaysian Tech Career Roadmaps 🇲🇾
