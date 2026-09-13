@@ -19,9 +19,9 @@ export default defineConfig({
     ["meta", { name: "twitter:description", content: "The go-to resource to learn Software Engineering, AI, DevOps, Data, and Cybersecurity in Malaysia." }],
     ["meta", { name: "twitter:image", content: "https://mhdhamka.github.io/TechMY/code.svg" }],
   ],
-  // Corrected base path with exact repository casing for GitHub Pages
+  // Base path matching exact GitHub repository case
   base: process.env.NODE_ENV === "production" ? "/TechMY/" : "/",
-  outDir: "dist", // Corrected so workflow artifact path matches cleanly
+  // outDir removed so it defaults safely to docs/.vitepress/dist
   cleanUrls: true,
   lastUpdated: true,
   vite: {
