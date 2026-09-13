@@ -21,7 +21,7 @@ export default defineConfig({
   ],
   // Base path matching exact GitHub repository case
   base: process.env.NODE_ENV === "production" ? "/TechMY/" : "/",
-  // outDir removed so it defaults safely to docs/.vitepress/dist
+  outDir: "docs/.vitepress/dist",
   cleanUrls: true,
   lastUpdated: true,
   vite: {
