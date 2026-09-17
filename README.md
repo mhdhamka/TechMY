@@ -91,8 +91,8 @@ docs/
 ├── bookmarks.md                 # Standalone bookmarks management page
 ├── roadmap.md                   # Interactive career progression roadmap page
 └── index.md                     # Homepage with curriculum browser
-
 ```
+</details>
 
 ---
 
