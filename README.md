@@ -19,7 +19,7 @@
 ## Quick Navigation
 > Jump straight to what you are looking for:
 > 
-> [Overview](#overview) · [Features](#key-features) · [Architecture](#content-structure) · [Getting Started](#getting-started) · [Tech Stack](#️technology-stack) · [Contributing](#contributing)
+> [Overview](#overview) · [Features](#key-features) · [Architecture](#project-structure) · [Getting Started](#getting-started) · [Tech Stack](#️technology-stack) · [Contributing](#contributing)
 
 ---
 
@@ -66,32 +66,6 @@
 * **Grounded Local Salaries**: Up-to-date compensation tiers benchmarked against Jobstreet, Indeed, and Randstad Malaysia.
 * **Local Employers & Rules**: Regional targets (Petronas Digital, Grab, GXBank, PayNet) and regulatory compliance.
 * **Progress Tracking**: Check off mastered milestones saved directly to browser storage.
-</details>
-
----
-
-## Content Structure
-
-<details>
-<summary><b>View Project Directory Tree</b></summary>
-
-```text
-docs/
-├── .vitepress/                  # VitePress configuration, theme, and components
-│   ├── config.ts                # Site navigation, sidebar routes, and metadata
-│   └── theme/                   # Custom Vue components, composables, and styles
-├── ai-ml/                       # AI, Machine Learning, and LLM engineering guides
-├── cybersecurity/               # Security fundamentals, secure coding, and RMiT
-├── data-engineering/            # Pipelines, data warehousing, and SQL recipes
-├── devops-infrastructure/       # Docker, CI/CD, k8s, and SRE best practices
-├── software-engineering/        # Clean code, design patterns, and code construction
-├── system-design/               # Distributed systems architecture and scalability guides
-├── tooling/                     # Modern developer CLI, terminal workflows, and API testing
-├── local-resources/             # Malaysian tech communities, meetups, and job hubs
-├── bookmarks.md                 # Standalone bookmarks management page
-├── roadmap.md                   # Interactive career progression roadmap page
-└── index.md                     # Homepage with curriculum browser
-```
 </details>
 
 ---
@@ -144,6 +118,34 @@ pnpm docs:preview
 | **Language** | [TypeScript](https://www.typescriptlang.org/) | Strict type safety and data models |
 | **Styling** | Custom CSS Variables | GitHub Dark aesthetic with Loki Green (`#3fb950`) accents |
 | **Persistence** | Browser `localStorage` | Client-side, privacy-first user storage |
+
+---
+
+
+## Project Structure
+
+<details>
+<summary><b>View Project Directory Tree</b></summary>
+
+```text
+docs/
+├── .vitepress/                  # VitePress configuration, theme, and components
+│   ├── config.ts                # Site navigation, sidebar routes, and metadata
+│   └── theme/                   # Custom Vue components, composables, and styles
+├── ai-ml/                       # AI, Machine Learning, and LLM engineering guides
+├── cybersecurity/               # Security fundamentals, secure coding, and RMiT
+├── data-engineering/            # Pipelines, data warehousing, and SQL recipes
+├── devops-infrastructure/       # Docker, CI/CD, k8s, and SRE best practices
+├── software-engineering/        # Clean code, design patterns, and code construction
+├── system-design/               # Distributed systems architecture and scalability guides
+├── tooling/                     # Modern developer CLI, terminal workflows, and API testing
+├── local-resources/             # Malaysian tech communities, meetups, and job hubs
+├── bookmarks.md                 # Standalone bookmarks management page
+├── roadmap.md                   # Interactive career progression roadmap page
+└── index.md                     # Homepage with curriculum browser
+```
+</details>
+
 
 ---
 
