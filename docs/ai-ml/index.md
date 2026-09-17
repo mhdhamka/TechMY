@@ -1,76 +1,101 @@
-## AI & Machine Learning Reading List
+---
+title: Artificial Intelligence & Machine Learning Master Guide
+description: End-to-end curriculum for artificial intelligence, mathematical foundations, deep learning, production LLM systems, and applied MLOps
+---
 
-A structured collection of books covering core mathematical foundations, machine learning theory, deep learning architectures, and modern LLM engineering.
-
-### 1. Foundations & Mathematics
-* **"Mathematics for Machine Learning"** by Marc Peter Deisenroth, A. Faisal, and Cheng Soon Ong
-  * *Focus:* The essential linear algebra, multivariate calculus, and probability theory needed to truly understand how ML algorithms work under the hood.
-* **"Python Data Science Handbook"** by Jake VanderPlas
-  * *Focus:* Practical data manipulation, vectorization, and numerical computing using NumPy, Pandas, Scikit-Learn, and Matplotlib.
-
-### 2. Core Machine Learning
-* **"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow"** by Aurélien Géron
-  * *Focus:* The gold standard practical guide for building end-to-end ML pipelines—from classic regression and classification models to deep neural networks.
-* **"The Elements of Statistical Learning"** by Trevor Hastie, Robert Tibshirani, and Jerome Friedman
-  * *Focus:* The definitive theoretical textbook for understanding the statistical and analytical principles driving machine learning algorithms.
-
-### 3. Deep Learning & Neural Networks
-* **"Deep Learning"** by Ian Goodfellow, Yoshua Bengio, and Aaron Courville
-  * *Focus:* Comprehensive mathematical and theoretical framing of deep architectures, regularization, optimization, and sequence modeling.
-
-### 4. Modern GenAI, LLMs, & Agents
-* **"Building LLMs for Production"** (or current applied engineering guides on Large Language Models & Retrieval-Augmented Generation)
-  * *Focus:* Practical architectures for fine-tuning, prompt engineering, vector databases, RAG pipelines, and deploying autonomous AI agents safely in production.
+<div class="se-hero">
+  <div class="se-hero-badge">AI & Machine Learning Curriculum 2026</div>
+  <h1>Artificial Intelligence & Machine Learning Master Guide</h1>
+  <p class="se-hero-subtitle">From foundational linear algebra and PyTorch deep learning to enterprise Retrieval-Augmented Generation (RAG) and MLOps. Grounded in research literature and calibrated for Malaysia's growing AI data center ecosystem.</p>
+</div>
 
 ---
 
-## Recommended GitHub Repositories for Data Science
+## The AI Engineering Roadmap
 
-GitHub repositories for data science. Organized into clear categories so you can easily navigate based on your needs whether you're a beginner, intermediate, or looking for projects/MLOps.
+Artificial intelligence has evolved from academic statistical research into an essential discipline of production software engineering. This curriculum provides a rigorous, hands-on path through the AI hierarchy:
 
-> **Note & Action Item:** Since I am currently juggling other concurrent projects, these repositories are organized here as a reference to implement step-by-step and tackle as a to-do list for future milestones.
+```
+[Level 4: Autonomous Agents & MLOps Infrastructure]
+       ▲  (vLLM serving, LoRA fine-tuning, multi-agent frameworks, GPU clusters)
+       │
+[Level 3: Large Language Models (LLMs) & RAG]
+       ▲  (Transformer self-attention, vector embeddings, hybrid retrieval, evaluation)
+       │
+[Level 2: Deep Learning & Neural Architectures]
+       ▲  (Backpropagation, PyTorch tensors, loss functions, CNNs, sequence models)
+       │
+[Level 1: Mathematics & Statistical Learning]
+          (Multivariate calculus, linear algebra, probability distributions, gradient descent)
+```
 
-## 1. Awesome Curated Lists (Your "Master Index")
-These are massive resource collections covering tools, courses, books, and more.
-- **[academic/awesome-datascience](https://github.com/academic/awesome-datascience)** — The #1 go-to curated list for data science. Covers everything from basics to real-world applications, books, courses, and tools.
-- **[josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)** — Comprehensive list focused on ML algorithms, libraries, and resources across languages.
-- **[vinta/awesome-python](https://github.com/vinta/awesome-python)** — Best Python ecosystem list (includes data science, ML, and visualization libraries).
-- **[awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)** — Curated high-quality open datasets for practice and projects.
-- **[quantmind/awesome-data-science-viz](https://github.com/quantmind/awesome-data-science-viz)** — Focused on data visualization, analysis, and Python/web tools.
+---
 
-## 2. Learning Roadmaps & Structured Curricula
-Perfect for self-paced learning with clear paths.
-- **[microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners)** — Free 10-week curriculum with 20 lessons, notebooks, and exercises (Microsoft-backed).
-- **[Avik-Jain/100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code)** — Classic 100-day ML challenge with daily code and concepts.
-- **[CIS-Team/Data-Science-Roadmap-2025](https://github.com/CIS-Team/Data-Science-Roadmap-2025)** — Complete A-to-Z roadmap (statistics → Python → ML → projects).
-- **[krishnaik06/Perfect-Roadmap-To-Learn-Data-Science-In-2025](https://github.com/krishnaik06/Perfect-Roadmap-To-Learn-Data-Science-In-2025)** — Practical end-to-end roadmap with projects (includes NLP, MLOps, and deployment).
-- **[mhmdkardosha/CAT-Reloaded-2025-Data-Science-Roadmap](https://github.com/mhmdkardosha/CAT-Reloaded-2025-Data-Science-Roadmap)** — Week-by-week structured tasks for beginners to advanced.
+## 1. Core Architectural Pillars
 
-## 3. Core Libraries (Must-Know Foundations)
-Daily tools every data scientist uses.
-- **[pandas-dev/pandas](https://github.com/pandas-dev/pandas)** — The essential library for data manipulation and analysis.
-- **[scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)** — Classical ML (classification, regression, clustering, preprocessing).
-- **[numpy/numpy](https://github.com/numpy/numpy)** — Numerical computing foundation (works hand-in-hand with pandas).
-- **[matplotlib/matplotlib](https://github.com/matplotlib/matplotlib)** + **[seaborn/seaborn](https://github.com/mwaskom/seaborn)** — Core visualization libraries.
+<div class="se-principles-grid">
+  <div class="se-principle-card">
+    <h3>1. Mathematical Foundations</h3>
+    <p>Matrix decompositions, eigenvalues, chain rule vector calculus, and probability distributions that govern gradient descent and loss landscapes.</p>
+  </div>
+  <div class="se-principle-card">
+    <h3>2. Deep Neural Networks</h3>
+    <p>Feedforward networks, convolutions, recurrent connections, and modern multi-head self-attention mechanisms implemented from scratch in PyTorch.</p>
+  </div>
+  <div class="se-principle-card">
+    <h3>3. Production RAG & Embeddings</h3>
+    <p>Semantic vector search, high-density embeddings, chunking strategies, and hybrid BM25 + dense retrieval for hallucination-free enterprise knowledge bases.</p>
+  </div>
+  <div class="se-principle-card">
+    <h3>4. MLOps & High-Throughput Serving</h3>
+    <p>Quantization (AWQ/GGUF), vLLM PagedAttention inference engines, continuous model evaluation, and GPU cluster orchestration in cloud environments.</p>
+  </div>
+</div>
 
-## 4. Machine Learning & Deep Learning Frameworks
-For building models.
-- **[pytorch/pytorch](https://github.com/pytorch/pytorch)** — Most popular for research and flexibility.
-- **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** — End-to-end production-ready deep learning (Google-backed).
-- **[keras-team/keras](https://github.com/keras-team/keras)** — High-level API for quick neural network prototyping (runs on TensorFlow).
-- **[huggingface/transformers](https://github.com/huggingface/transformers)** — State-of-the-art NLP, LLMs, and multimodal models.
-- **[dmlc/xgboost](https://github.com/dmlc/xgboost)** and **[microsoft/LightGBM](https://github.com/microsoft/LightGBM)** — Gradient boosting powerhouses for tabular data competitions.
+---
 
-## 5. Hands-On Projects & Portfolio Builders
-Build real projects to strengthen your GitHub profile.
-- **[durgeshsamariya/Data-Science-Machine-Learning-Project-with-Source-Code](https://github.com/durgeshsamariya/Data-Science-Machine-Learning-Project-with-Source-Code)** — Huge collection of projects with code and explanations.
-- **[veb-101/Data-Science-Projects](https://github.com/veb-101/Data-Science-Projects)** — Curated list of project ideas with resources across industries.
-- **[rhiever/Data-Analysis-and-Machine-Learning-Projects](https://github.com/rhiever/Data-Analysis-and-Machine-Learning-Projects)** — Teaching-focused projects with datasets and code.
+## 2. Recommended Literature by Mastery Stage
 
-## 6. Bonus: MLOps, Production & Specialized
-- **[DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)** (and **[DataTalksClub/mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)**) — Free project-based courses on ML engineering and production.
+### Level 1: Foundations & Classical Machine Learning
+- **"Mathematics for Machine Learning"** by Marc Peter Deisenroth, A. Faisal, and Cheng Soon Ong (*Essential linear algebra, vector calculus, and matrix decompositions*).
+- **"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow"** by Aurélien Géron (*The gold standard practical guide for building end-to-end ML pipelines*).
+- **"The Elements of Statistical Learning"** by Trevor Hastie, Robert Tibshirani, and Jerome Friedman (*The definitive theoretical reference for statistical learning principles*).
 
-## Quick Start Advice
-- **Beginner**: Start with **awesome-datascience** + **Data-Science-For-Beginners** + **pandas** + **100-Days-Of-ML-Code**.
-- **Intermediate/Advanced**: Dive into **PyTorch** or **Transformers** + build 5–10 projects from the project repos.
-- **Pro Tip**: Star these repos, fork interesting ones, and contribute small improvements — it’s great for learning and your resume.
+### Level 2: Deep Learning & Neural Computation
+- **"Deep Learning"** by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (*Comprehensive theoretical framing of deep architectures, regularization, and optimization*).
+- **"Deep Learning with PyTorch"** by Eli Stevens, Luca Antiga, and Thomas Viehmann (*Idiomatic tensor computation, GPU acceleration, and production pipelines*).
+
+### Level 3: GenAI, Large Language Models & Applied Systems
+- **"Building LLMs for Production"** by Chip Huyen (*System design for generative AI, evaluation frameworks, latency optimization, and vector databases*).
+- **"Natural Language Processing with Transformers"** by Lewis Tunstall, Leandro von Werra, and Thomas Wolf (*Fine-tuning Hugging Face models, tokenization, and multi-task transfer learning*).
+
+---
+
+## 3. The Malaysian AI Landscape: Supercomputing & NAIO
+
+With massive hyperscale data center investments across **Johor (Sedenak & Nusajaya Tech Parks)**, **Cyberjaya**, and **Kuala Lumpur** (including NVIDIA AI supercomputing clusters with YTL Power, Google Cloud, and AWS Malaysia region `ap-southeast-5`), Malaysia is rapidly emerging as Southeast Asia's premier AI computing hub.
+
+### Key Malaysian AI Ecosystem Priorities:
+- **National AI Office (NAIO):** Established under the Ministry of Digital to drive the National AI Roadmap, enforce ethical AI governance, and oversee AI safety standards.
+- **Sovereign & Localized Models:** Pioneer work by local open-source initiatives like **Mesolitica (Malaya)** building native Bahasa Melayu and Malaysian Manglish tokenizers and LLM adapters.
+- **RMiT & Banking AI Safeguards:** Bank Negara Malaysia requires strict explainability, audit trails, and data sovereignty safeguards whenever machine learning is deployed for credit underwriting or fraud detection.
+
+---
+
+## 4. Structured Curriculum Modules
+
+Explore the dedicated guides in this track:
+
+1. **[Deep Learning Basics & PyTorch](/ai-ml/deep-learning-basics)** — Tensor operations, backpropagation mechanics, activation functions, loss optimizers, and neural network training loops.
+2. **[LLMs & RAG Architectures](/ai-ml/llm-and-rag)** — Transformer attention, tokenization, dense vector embeddings, vector databases, chunking strategies, and RAG evaluation.
+3. **[AI & DevOps Workflows (MLOps)](/ai-ml/ai-devops)** — vLLM inference engines, PagedAttention, quantization, LoRA fine-tuning, and model observability in production.
+
+---
+
+## 5. Curated GitHub Repositories for AI Engineers
+
+- **[academic/awesome-datascience](https://github.com/academic/awesome-datascience)** — The comprehensive master index of data science and ML curricula.
+- **[huggingface/transformers](https://github.com/huggingface/transformers)** — State-of-the-art pretrained transformer models for PyTorch and JAX.
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** — High-throughput and memory-efficient LLM serving engine with PagedAttention.
+- **[mesolitica/malaya](https://github.com/mesolitica/malaya)** — Natural Language Toolkit designed specifically for Bahasa Melayu and Malaysian dialects.
+- **[run-llama/llama_index](https://github.com/run-llama/llama_index)** & **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** — Leading frameworks for orchestrating complex RAG pipelines.

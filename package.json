@@ -1,6 +1,6 @@
 {
   "name": "TechMY",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "Comprehensive, open-source tech curriculum and career resource for software engineering, AI, DevOps, data, and cybersecurity in Malaysia, built with VitePress.",
   "scripts": {
@@ -37,5 +37,9 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.22",
+    "leaflet": "^1.9.4"
   }
 }

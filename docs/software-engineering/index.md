@@ -129,6 +129,16 @@ Preparing for competitive engineering loops and tech-lead progression requires b
 
 ---
 
+## 4. Malaysian Tech Career Progression Roadmaps
+
+Visual milestone roadmaps detailing leveling expectations, everyday scope, promotion criteria, and verified Malaysian Ringgit (MYR) salary benchmarks across Junior to Staff/Principal engineering tiers (including AI, Software Engineering, DevOps, and Cybersecurity):
+
+<ClientOnly>
+  <CareerProgressionRoadmap />
+</ClientOnly>
+
+---
+
 ## Key Literature & Sources
 
 <div class="se-refs-container">

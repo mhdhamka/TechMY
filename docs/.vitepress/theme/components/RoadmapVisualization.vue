@@ -1051,6 +1051,153 @@ const tracks: Track[] = [
         targetJobTitles: ['Lead Penetration Tester', 'Principal Security Architect', 'CISO / Head of Information Security']
       }
     ]
+  },
+  {
+    id: 'devops',
+    name: 'DevOps & Cloud SRE',
+    shortTag: 'Kubernetes, IaC & RMiT Resilience',
+    icon: '⚡',
+    badgeText: 'High Demand • Cloud & SRE',
+    accentClass: 'track-purple',
+    description:
+      'Master the lifecycle of high-availability cloud systems: from container runtimes and GitHub Actions automation to multi-cluster Kubernetes, Terraform IaC, and BNM RMiT disaster recovery architectures across AWS/GCP Malaysia regions.',
+    marketDemand: 'Very High (Accelerated by AWS & Google Cloud Malaysia regions)',
+    salaryRangeMYR: 'RM 4,200 (Associate) — RM 24,000+ (Principal SRE / Cloud Architect)',
+    topEmployers: ['Grab Malaysia', 'Petronas Digital', 'GXBank', 'PayNet', 'Tenaga Nasional Berhad (TNB)', 'AirAsia MOVE', 'Maybank Shared Services'],
+    salaryData: {
+      medianMonthly: 'RM 7,200',
+      overallMonthlyRange: 'RM 4,200 – RM 18,500+',
+      annualRange: 'RM 55,000 – RM 220,000+ / yr',
+      experienceTiers: [
+        {
+          level: 'Junior / Associate (0–2 yrs)',
+          monthlyRange: 'RM 4,000 – RM 5,800/mo',
+          annualEstimate: 'RM 48,000 – RM 69,600',
+          focusRole: 'Junior DevOps Engineer / Cloud Ops Associate',
+          typicalSkills: 'Docker multi-stage builds, Linux sysadmin, GitHub Actions CI, basic bash automation'
+        },
+        {
+          level: 'Mid-Level Specialist (3–5 yrs)',
+          monthlyRange: 'RM 6,500 – RM 10,500/mo',
+          annualEstimate: 'RM 78,000 – RM 126,000',
+          focusRole: 'DevOps Engineer / SRE / Cloud Platform Engineer',
+          typicalSkills: 'Kubernetes Helm charts, Terraform IaC, Prometheus/Grafana alerts, zero-downtime blue/green'
+        },
+        {
+          level: 'Senior / Lead SRE (5+ yrs)',
+          monthlyRange: 'RM 10,500 – RM 18,000+/mo',
+          annualEstimate: 'RM 126,000 – RM 216,000',
+          focusRole: 'Senior SRE / Staff Infrastructure Engineer',
+          typicalSkills: 'Multi-region disaster recovery (RMiT), service mesh (Istio), cost optimization (FinOps), chaos engineering'
+        },
+        {
+          level: 'Principal / Cloud Architect (8+ yrs)',
+          monthlyRange: 'RM 18,500 – RM 30,000+/mo',
+          annualEstimate: 'RM 222,000 – RM 360,000+',
+          focusRole: 'Head of Infrastructure / Principal Cloud Architect',
+          typicalSkills: 'Hybrid-cloud sovereign architectures, national critical infrastructure resilience, executive FinOps'
+        }
+      ],
+      geographicPremium: 'Kuala Lumpur and Cyberjaya command highest salaries; engineers certified in multi-cloud architecture (AWS/GCP/Azure) with local FinTech experience receive substantial premiums.',
+      topSectors: ['Digital Banking & FinTech (RMiT Compliance)', 'Telecom & SuperApps (Grab, CelcomDigi)', 'Enterprise Cloud Transformation (Petronas, TNB)'],
+      sources: [
+        { name: 'Jobstreet Malaysia 2026', note: 'DevOps / SRE median RM 6,800 – RM 11,500/mo' },
+        { name: 'Indeed Malaysia 2026', note: 'SRE average RM 7,420/mo; Senior SRE RM 12,500/mo' },
+        { name: 'Michael Page Malaysia', note: 'Cloud & Infrastructure Leads RM 180k – RM 280k/yr' },
+        { name: 'Randstad Malaysia Tech Report', note: 'Cloud Architects & SRE among top 3 most sought-after talent' }
+      ],
+      lastUpdated: '2026 Market Benchmark'
+    },
+    stages: [
+      {
+        id: 'devops-1',
+        title: 'Linux Systems, Networking & Container Runtimes',
+        level: 'entry',
+        levelLabel: 'Junior Foundation',
+        levelClass: 'level-entry',
+        difficulty: 'beginner',
+        difficultyLabel: 'Beginner',
+        estimatedTime: '2 - 3 Months',
+        summary: 'Master the POSIX command line, socket networking, container namespaces, and lightweight image design.',
+        skills: ['Linux Kernel & Bash', 'TCP/IP & DNS Troubleshooting', 'Docker & OCI Runtimes', 'Multi-Stage Image Layering', 'Docker Compose'],
+        malaysiaRelevance: 'Foundation for every enterprise cloud transformation project across local banks and GLC digital squads.',
+        docsLink: '/devops-infrastructure/container-docker',
+        detailedMilestones: [
+          'Inspect system resources, network sockets, and process trees with htop, ss, and strace',
+          'Write optimized Dockerfiles utilizing multi-stage builds and scratch base images',
+          'Configure bridge and overlay networks with isolated container namespaces',
+          'Automate local development environments using Docker Compose and volume binds'
+        ],
+        recognizedCerts: ['Linux Foundation Certified System Administrator (LFCS)', 'Docker Certified Associate (DCA)'],
+        targetJobTitles: ['Junior DevOps Engineer', 'Linux Systems Administrator', 'Cloud Operations Associate']
+      },
+      {
+        id: 'devops-2',
+        title: 'CI/CD Automation, Security Scanning & GitOps',
+        level: 'mid',
+        levelLabel: 'Mid-Level Core',
+        levelClass: 'level-mid',
+        difficulty: 'intermediate',
+        difficultyLabel: 'Intermediate',
+        estimatedTime: '3 - 4 Months',
+        summary: 'Build robust continuous delivery pipelines with automated testing, vulnerability scanning, and declarative deployments.',
+        skills: ['GitHub Actions Workflows', 'ArgoCD / Flux (GitOps)', 'Trivy / SonarQube Scanning', 'Semantic Versioning & Artifacts', 'Matrix Builds'],
+        malaysiaRelevance: 'Enables rapid release velocity while maintaining compliance with local internal audit standards and zero manual production touches.',
+        docsLink: '/devops-infrastructure/cicd-workflows',
+        detailedMilestones: [
+          'Construct multi-job GitHub Actions pipelines with caching and secret management',
+          'Integrate static code analysis (SAST) and container vulnerability scanning into pull requests',
+          'Implement GitOps continuous deployment using declarative repository state with ArgoCD',
+          'Configure zero-downtime rolling and canary release deployments'
+        ],
+        recognizedCerts: ['GitHub Actions Certified Specialist', 'GitLab Certified Associate'],
+        targetJobTitles: ['DevOps Engineer', 'Release Engineer', 'CI/CD Specialist']
+      },
+      {
+        id: 'devops-3',
+        title: 'Kubernetes Orchestration & Infrastructure as Code (Terraform)',
+        level: 'mid',
+        levelLabel: 'Mid to Senior',
+        levelClass: 'level-mid',
+        difficulty: 'intermediate',
+        difficultyLabel: 'Intermediate',
+        estimatedTime: '4 - 6 Months',
+        summary: 'Orchestrate production container clusters, manage declarative cloud infrastructure, and deploy across AWS/GCP Malaysia regions.',
+        skills: ['Kubernetes (k8s) & Helm', 'Terraform (HCL) & State Mgmt', 'AWS Malaysia Region (ap-southeast-5)', 'Ingress & Network Policies', 'Horizontal Pod Autoscaling'],
+        malaysiaRelevance: 'With AWS launching its Malaysia cloud region (ap-southeast-5) and Google Cloud expanding Cyberjaya facilities, certified Terraform and Kubernetes engineers are in unprecedented demand.',
+        docsLink: '/devops-infrastructure/infrastructure-sre',
+        detailedMilestones: [
+          'Provision multi-tier cloud infrastructure with Terraform modules and remote S3 state locks',
+          'Deploy high-availability Kubernetes workloads with Ingress controllers, ConfigMaps, and Secrets',
+          'Configure Horizontal Pod Autoscaling (HPA) and cluster autoscalers for unpredictable traffic spikes',
+          'Enforce network segmentation using Kubernetes NetworkPolicies and RBAC rules'
+        ],
+        recognizedCerts: ['Certified Kubernetes Administrator (CKA)', 'HashiCorp Certified: Terraform Associate'],
+        targetJobTitles: ['Senior DevOps Engineer', 'Cloud Infrastructure Engineer', 'Kubernetes Administrator']
+      },
+      {
+        id: 'devops-4',
+        title: 'Production SRE, Observability & BNM RMiT Disaster Recovery',
+        level: 'senior',
+        levelLabel: 'Senior & Staff',
+        levelClass: 'level-senior',
+        difficulty: 'advanced',
+        difficultyLabel: 'Advanced',
+        estimatedTime: 'Ongoing Mastery',
+        summary: 'Architect four-nines (99.99%) availability, manage SLOs/error budgets, and enforce Bank Negara Malaysia RMiT disaster recovery standards.',
+        skills: ['Prometheus & Grafana Mimir', 'OpenTelemetry Tracing', 'BNM RMiT RPO/RTO Mandates', 'Chaos Engineering', 'FinOps Cloud Economics'],
+        malaysiaRelevance: 'Bank Negara Malaysia RMiT mandates strict Recovery Time Objectives (RTO < 4 hours) and Recovery Point Objectives (RPO < 120 seconds). SREs capable of proving active-active cross-zone failovers command premium salaries.',
+        docsLink: '/devops-infrastructure/',
+        detailedMilestones: [
+          'Design full-stack observability with OpenTelemetry distributed traces and Prometheus metrics',
+          'Define Service Level Objectives (SLOs), error budgets, and actionable paging alerts',
+          'Conduct automated chaos engineering experiments to test network partitions and zone failures',
+          'Execute annual simulated disaster recovery switchovers compliant with BNM RMiT requirements'
+        ],
+        recognizedCerts: ['Certified Kubernetes Security Specialist (CKS)', 'AWS Certified Solutions Architect - Professional'],
+        targetJobTitles: ['Lead Site Reliability Engineer (SRE)', 'Principal Cloud Architect', 'Head of Platform Engineering']
+      }
+    ]
   }
 ];
 
@@ -1373,6 +1520,11 @@ onUnmounted(() => {
   box-shadow: 0 4px 16px rgba(210, 153, 34, 0.15);
 }
 
+.track-tab-card.track-purple.active {
+  border-color: #bc8cff;
+  box-shadow: 0 4px 16px rgba(188, 140, 255, 0.15);
+}
+
 .track-tab-main-btn {
   background: transparent;
   border: none;
@@ -1485,6 +1637,12 @@ onUnmounted(() => {
 .track-amber .salary-info-trigger:hover {
   border-color: #d29922;
   color: #e3b341;
+}
+
+.track-purple .salary-info-trigger.tooltip-open,
+.track-purple .salary-info-trigger:hover {
+  border-color: #bc8cff;
+  color: #d2a8ff;
 }
 
 .salary-trigger-left {
@@ -1807,6 +1965,7 @@ onUnmounted(() => {
 .active-track-hero.track-blue::before { background: #58a6ff; }
 .active-track-hero.track-green::before { background: #3fb950; }
 .active-track-hero.track-amber::before { background: #d29922; }
+.active-track-hero.track-purple::before { background: #bc8cff; }
 
 .track-hero-content {
   display: grid;

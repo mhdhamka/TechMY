@@ -167,6 +167,16 @@ Focus your technical study on high-frequency patterns rather than blindly memori
 
 ---
 
+## Part V: Malaysian Tech Career Progression Roadmaps
+
+Understand where your technical preparation fits into real Malaysian tech roles, leveling expectations (e.g. Junior to Senior AI Engineer), and local MYR salary benchmarks:
+
+<ClientOnly>
+  <CareerProgressionRoadmap />
+</ClientOnly>
+
+---
+
 ## Key Literature & Sources
 - **Cracking the Coding Interview: 189 Programming Questions and Solutions (6th Edition)** by Gayle Laakmann McDowell (CareerCup). Covers the tech interview process (Introduction), resume writing guidelines and project positioning (Chapter V), behavioral interview preparation grids and STAR method frameworks (Introduction Section V), Big O analysis and time/space complexity (Chapter VI), the 5 optimization techniques including BUD, DIY, and Base Case and Build (Chapter VII), data structures such as Arrays, Strings, Linked Lists, Stacks, Queues, Trees, and Graphs (Chapters I–IV), and recursion/dynamic programming with memoization (Chapter VIII).
 

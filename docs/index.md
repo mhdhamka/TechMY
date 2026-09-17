@@ -20,6 +20,8 @@ hero:
 
 <RoadmapVisualization />
 
+<CurriculumBrowser />
+
 ## Curricula Tracks & Pillars
 
 Designed like an open curriculum, structured to take you from core fundamentals to production-ready mastery tailored specifically for the Malaysian tech landscape.
