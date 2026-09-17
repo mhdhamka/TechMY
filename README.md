@@ -113,9 +113,9 @@ pnpm docs:preview
 
 | Layer | Technology | Purpose |
 | --- | --- | --- |
-| **Framework** | [VitePress](https://vitepress.dev/) 1.6+ | Fast, Vue-powered static site generator |
-| **UI Components** | [Vue 3](https://vuejs.org/) (Composition API) | Reactive components for bookmarks and filters |
-| **Language** | [TypeScript](https://www.typescriptlang.org/) | Strict type safety and data models |
+| **Framework** | VitePress 1.6+ | Fast, Vue-powered static site generator |
+| **UI Components** | Vue (Composition API) | Reactive components for bookmarks and filters |
+| **Language** | TypeScript | Strict type safety and data models |
 | **Styling** | Custom CSS Variables | GitHub Dark aesthetic with Loki Green (`#3fb950`) accents |
 | **Persistence** | Browser `localStorage` | Client-side, privacy-first user storage |
 
