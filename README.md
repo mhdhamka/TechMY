@@ -19,7 +19,7 @@
 ## Quick Navigation
 > Jump straight to what you are looking for:
 > 
-> [Overview](#overview) · [Features](#-key-features) · [Architecture](#-content-structure) · [Getting Started](#-getting-started) · [Tech Stack](#️-technology-stack) · [Contributing](#-contributing)
+> [Overview](#overview) · [Features](#key-features) · [Architecture](#content-structure) · [Getting Started](#getting-started) · [Tech Stack](#️technology-stack) · [Contributing](#contributing)
 
 ---
 
